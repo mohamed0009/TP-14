@@ -31,13 +31,3 @@ Exécuter les tests
 ./gradlew.bat connectedAndroidTest
 ```
 
-Notes
-- Le projet attend un service SOAP côté serveur. En développement, l'app utilise `10.0.2.2` pour atteindre le serveur local depuis l'émulateur Android.
-- J'ai traduit les commentaires en français dans le code et les fichiers de ressources.
-- J'ai ajouté des icônes placeholder adaptatives dans `app/src/main/res` nommées `ic_launcher_background_generic.xml` et `ic_launcher_foreground_generic.xml` et un fichier adaptatif dans `mipmap-anydpi-v26/ic_launcher_generic.xml`.
-
-Changer les icônes
-- Remplacez les drawables dans `app/src/main/res/drawable/` et mettez à jour les ressources `mipmap` si vous voulez des icônes personnalisées.
-
-Contact
-- Auteur : projet d'exemple
